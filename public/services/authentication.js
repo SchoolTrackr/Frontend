@@ -2,7 +2,7 @@ authentication = angular.module('schoolTrackr.authentication', ['LocalStorageMod
 authentication.config(function(localStorageServiceProvider){
     localStorageServiceProvider.setPrefix('schoolTrackr.authentication')
 });
-var APIroot = 'http://127.0.0.1:5000/api';
+var APIroot = 'https://schooltrackr.net/api';
 
 authentication.constant('AUTH_EVENTS', {
     loginSuccess: 'auth-login-success',
